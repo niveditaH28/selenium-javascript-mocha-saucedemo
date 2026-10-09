@@ -1,0 +1,18 @@
+{
+  "name": "selenium-js-mocha-saucedemo",
+  "version": "1.0.0",
+  "description": "SauceDemo UI automation using Selenium WebDriver, JavaScript, Mocha and Chai",
+  "scripts": {
+    "test": "mocha tests --timeout 60000 --reporter spec",
+    "test:report": "mocha tests --timeout 60000 --reporter mochawesome"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3"
+  }
+}
